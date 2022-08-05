@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Question 3</title>
+        <link rel="stylesheet" href="Css/styles.css"
+    </head>
+    <body bgcolor="blue">
+        <form>
+            <fieldset>
+                <legend>Personal Information</legend>
+                <label>First Name</label>
+                <input type="text"><br>
+                <label>Last Name</label>
+                <input type="text">
+            </fieldset>
+    
+            <fieldset>
+                <legend>Course Info</legend>
+                <label>Course:</label><br>
+                <input type="radio" id="webdesign"><label for="webdesign">Web Design</label>
+                <br>
+                <input type="radio" id="sql" checked><label for="sql">SQL</label>
+                <br>
+                <input type="radio" id="pro"><label for="pro">Programming</label>
+
+                <br><br>
+                <label>Career Goal: </label><br>
+                <select name="career" id="career">
+                    <option value="1">Programmer</option>
+                    <option value="2">Data Scientist</option>
+                    <option value="3">Artificial Intelligence</option>
+                </select>
+
+                <br><br>
+                <label><b>Skills:</b></label><br>
+                <input type="checkbox" id="unix"><label for="unix">UNIX</label>
+                <input type="checkbox" id="VIM"><label for="VIM">VIM</label>
+                <br>
+                <input type="checkbox" id="html"><label for="html">HTML</label>
+                <input type="checkbox" id="css"><label for="css">CSS</label>
+                <br>
+                <input type="checkbox" id="python"><label for="python">Python</label>
+                <input type="checkbox" id="javascript"><label for="javascript">JavaScript</label>
+
+
+                <br>
+                <label><b>DESCRIBE ANY ADDITIONAL SKILLS YOU HAVE: </b></label>
+                <br>
+                <textarea cols="70" rows="10">
+                </textarea>
+
+
+            </fieldset>
+
+            <input type="submit" value="Enter my information" id="subm">
+        </form>
+
+    </body>
+</html>
