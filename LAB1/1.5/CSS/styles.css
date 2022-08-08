@@ -1,0 +1,76 @@
+body {
+  background-color: black;
+  color: white;
+}
+
+.header {
+  color: gold;
+  font-size: 40px;
+}
+
+.head-title {
+  margin-top: 0px;
+}
+
+/*NAVBAR SECTION*/
+.nvv {
+  background-color: gold;
+  color: black;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.main-lnks{
+  display: inline;
+  padding: 20px;
+  font-weight: bold;
+}
+
+/* MAIN SECTION */
+
+.main {
+  padding-left: 5px;
+  width: 70%;
+  display: inline-block;
+}
+.main-div {
+  display: inline-block;
+}
+
+/*ASIDE CLASS*/
+
+.aside-div {
+  width: 20%;
+  background-color: gray;
+  display: inline-block;
+  float: right;
+}
+
+.aside-class {
+  background-color: gray;
+  margin-left: 0;
+  float: right;
+  width: 20%;
+  display: inline-block;
+  margin-top: -16px;
+  padding-left: 5px;;
+}
+
+.lks{
+    color:gold;
+}
+
+/*FOOTER SECTION*/
+
+.footer {
+  background-color: gold;
+  color: black;
+  padding: 5px;
+  margin-top: 5px;
+}
+
+.footer-div {
+  margin-bottom: -200px;
+  margin-top: 200px;
+  margin-left: 0;
+  margin-right: 0;
+}
