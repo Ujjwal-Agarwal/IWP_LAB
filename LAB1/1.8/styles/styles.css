@@ -3,6 +3,9 @@ body {
   margin: 0;
   padding: 0;
 }
+p{
+  margin-top: 0;
+}
 
 /* NAVIGATION BAR SECTION */
 
@@ -17,7 +20,10 @@ body {
 
 .linkrel {
   display: inline-block;
+  vertical-align: top;
   margin-left: 33rem;
+  margin-top: 1rem;
+
   font-weight: 900;
 }
 
@@ -45,6 +51,7 @@ body {
   vertical-align: top;
   display: inline-block;
   margin-bottom: 20px;
+  width: 28%;
 }
 .linkform {
 }
@@ -52,11 +59,29 @@ body {
 .search-box {
 }
 .sidebar-box {
-  width: 23rem;
+
+  width: 95%;
   height: 5rem;
   margin: 10px;
-  background-color: black;
+  margin-inline: 0;
+  /* background-color: black; */
+  /* border: 1px solid black; */
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5) ;
+  border-radius: 5%;
 }
+
+.sidebar-text{
+  display: inline-block;
+  width: 68%;
+  margin: 10px;
+  margin-inline: 15px;
+  padding: 0;
+  vertical-align:top;
+
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 550;
+}
+
 
 .sidebar-heading-underline {
   border-top: 5px solid red;
@@ -64,13 +89,34 @@ body {
   margin-top: -15px;
 }
 
+.side-box-img{
+  display: inline-block;
+  height: 100%;
+  aspect-ratio: 1;
+  border-radius: 5%;
+  margin-inline:0;
+}
+
 .link-box {
   display: inline-block;
-  height: 15rem;
+  height: 18rem;
   width: 30%;
-  background-color: gray;
+  /* background-color: gray; */
   margin: 10px;
+  /* border: 1px solid black; */
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5) ;
+  border-radius: 5%;
   
+}
+
+.link-box-img{
+  width: 100%;
+  height: 60%;
+  border-radius: 5%;
+}
+
+.link-box p{
+  padding: 10px;
 }
 
 
@@ -80,4 +126,18 @@ body {
     height: 5px;
     background-color: black;
     margin: 0;
+}
+
+/* FOOTER */
+.footer{
+  background-color: black;
+  width: 100%;
+  height: 3rem;
+  margin-top: 13rem;
+
+  color:white;
+  text-align: center;
+  font-family:'Courier New', Courier, monospace;
+  font-size: large;
+  padding: 1.5rem;
 }
