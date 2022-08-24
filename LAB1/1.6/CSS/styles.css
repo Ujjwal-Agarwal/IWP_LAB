@@ -1,8 +1,10 @@
-.treeimg{
-    display: inline;
-    width: 30%;
-    margin-right: 0;
+body{
+    background-image: url('../images/tree.png');
+    background-position: left center;
+    background-size: 30rem 50rem;
+    background-repeat: no-repeat;
 }
+
 
 h1{
     font-family: 'Courier New', Courier, monospace;
@@ -15,7 +17,6 @@ p{
 
 
 .txtbox{
-    display:inline;
     background-color: whitesmoke;
     float:right;
     width: 70%;
@@ -23,12 +24,11 @@ p{
 }
 
 .borderdiv{
-    display: inline;
     border: dotted 5px;
     border-bottom:dashed 5px;
     border-left: solid 5px;
     border-right: solid 5px;
     width: 70%;
     float:right;
-    margin-top: -450px;
+    margin-top: 1rem;
 }

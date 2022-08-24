@@ -1,0 +1,83 @@
+/* MARGIN PADDING RESET */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* NAVIGATION BAR SECTION */
+
+.logo {
+  display: inline-block;
+}
+.logotext {
+  font-size: 50px;
+  margin: 10px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.linkrel {
+  display: inline-block;
+  margin-left: 33rem;
+  font-weight: 900;
+}
+
+.mainlinks {
+  display: inline;
+  margin-inline: 1rem;
+}
+
+/* HEADER SECTION */
+
+.header {
+  background-color: lightgray;
+  padding-top: 1rem;
+}
+/* MAIN SECTION */
+
+.text-section {
+  display: inline-block;
+  width: 70%;
+  padding-inline: 10px;
+  vertical-align: top;
+}
+.linksection {
+  /* position: absolute; */
+  vertical-align: top;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+.linkform {
+}
+
+.search-box {
+}
+.sidebar-box {
+  width: 23rem;
+  height: 5rem;
+  margin: 10px;
+  background-color: black;
+}
+
+.sidebar-heading-underline {
+  border-top: 5px solid red;
+  width: 5rem;
+  margin-top: -15px;
+}
+
+.link-box {
+  display: inline-block;
+  height: 15rem;
+  width: 30%;
+  background-color: gray;
+  margin: 10px;
+  
+}
+
+
+/* HR TAG */
+
+.main-divide{
+    height: 5px;
+    background-color: black;
+    margin: 0;
+}
