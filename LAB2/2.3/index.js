@@ -1,23 +1,17 @@
 function fnc1() {
-  console.log("Clicked");
-  var name = document.getElementById("nametext").value;
-  var email = document.getElementById("Email").value;
-  var gender;
-  if (
-    document.getElementById("male").checked == true &&
-    document.getElementById("female").checked == true
-  ) {
-    alert("Can not check both");
-  }
 
-  if ( document.getElementById("male").checked == true) {
-    gender =  document.getElementById("male").value;
-  } else {
-    gender =  document.getElementById("female").value;
-  }
+ var form = document.getElementById("form1"), inputs = form.getElementsByTagName("input"), input = null, flag  = true;
 
-  var dropbox = document.getElementById("dropbox").value;
-  console.log(dropbox);
+
+ for(var i=0, len= inputs.length;i<len;i++){
+  input = inputs[i];
+  if(!input.value){
+    flag = false;
+    input.focus();
+    alert("Please Fill All Input Fields");
+    return(flag);
+  }
+ }
 
   var redirect = confirm("DO YOU WISH TO CONTINUE? ");
 
@@ -28,6 +22,8 @@ function fnc1() {
 }
 
 // document.getElementById("submitbtn").addEventListener("click", fnc1());
+
+
 
 
 document.getElementById("submitbtn").onclick = function(){
